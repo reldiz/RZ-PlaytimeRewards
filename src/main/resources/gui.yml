@@ -1,0 +1,73 @@
+# ====================================================== #
+#                 PlaytimeRewards GUI                    #
+# ====================================================== #
+
+gui:
+  title: "&8ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅꜱ"
+  rows: 3
+
+  items:
+    stats-head:
+      slot: 22
+      material: BOOK
+      name: "&9&lʏᴏᴜʀ ꜱᴛᴀᴛɪꜱᴛɪᴄꜱ"
+      lore:
+        - "&8▸ &7ᴘʟᴀʏᴛɪᴍᴇ: &a%playtime_formatted%"
+        - "&8▸ &7ᴄʟᴀɪᴍᴀʙʟᴇ: &e%claimable_count%"
+        - "&8▸ &7ᴄᴏᴍᴘʟᴇᴛᴇᴅ: &a%claimed_count%"
+
+    previous-page:
+      slot: 18
+      material: ARROW
+      name: "&c« &fᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ"
+      lore:
+        - "&8▸ &7ɢᴏ ᴛᴏ ᴘᴀɢᴇ &e%page%"
+
+    next-page:
+      slot: 26
+      material: ARROW
+      name: "&aɴᴇxᴛ ᴘᴀɢᴇ &r»"
+      lore:
+        - "&8▸ &7ɢᴏ ᴛᴏ ᴘᴀɢᴇ &e%page%"
+
+    filler:
+      material: GRAY_STAINED_GLASS_PANE
+      name: " "
+      slots: [19, 20, 21, 23, 24, 25]
+
+  reward-slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+
+  display-states:
+    locked:
+      material: CHEST_MINECART
+      name: "&c&l%reward_name% &8[&cʟᴏᴄᴋᴇᴅ&8]"
+      lore:
+        - "&8▸ &7ʀᴇǫᴜɪʀᴇᴅ ᴛɪᴍᴇ: &e%required_time%"
+        - "&8▸ &7ʏᴏᴜʀ ᴘʟᴀʏᴛɪᴍᴇ: &c%current_time%"
+        - ""
+        - "&8▸ &7ʀᴇᴡᴀʀᴅꜱ:"
+        - "%description%"
+        - ""
+        - "&c✕ ʏᴏᴜ ʜᴀᴠᴇ ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ ᴛʜɪꜱ ʏᴇᴛ!"
+
+    claimable:
+      material: CHEST_MINECART
+      name: "&a&l%reward_name% &8[&aʀᴇᴀᴅʏ&8]"
+      lore:
+        - "&8▸ &7ʀᴇǫᴜɪʀᴇᴅ ᴛɪᴍᴇ: &e%required_time%"
+        - ""
+        - "&8▸ &7ʀᴇᴡᴀʀᴅꜱ:"
+        - "%description%"
+        - ""
+        - "&a✔ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴀɪᴍ ʏᴏᴜʀ ʀᴇᴡᴀʀᴅ!"
+
+    claimed:
+      material: MINECART
+      name: "&7&l%reward_name% &8[&8ᴄʟᴀɪᴍᴇᴅ&8]"
+      lore:
+        - "&8▸ &7ꜱᴛᴀᴛᴜꜱ: &aᴄʟᴀɪᴍᴇᴅ"
+        - ""
+        - "&8▸ &7ʀᴇᴄᴇɪᴠᴇᴅ ʀᴇᴡᴀʀᴅꜱ:"
+        - "%description%"
+        - ""
+        - "&8✔ ʏᴏᴜ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴄʟᴀɪᴍᴇᴅ ᴛʜɪꜱ."

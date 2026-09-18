@@ -1,0 +1,20 @@
+# ====================================================== #
+#               RZ-PlaytimeRewards Configuration            #
+# ====================================================== #
+
+# Playtime data provider options: "CMI", "ESSENTIALS", "VANILLA"
+# Automatically falls back to VANILLA if selected plugin is missing.
+provider: "CMI"
+
+# Sound effects played during interaction
+sounds:
+  reward-claimed: "ENTITY_PLAYER_LEVELUP"
+  page-change: "ITEM_BOOK_PAGE_TURN"
+  error: "ENTITY_VILLAGER_NO"
+
+messages:
+  no-permission: "&c✕ &7ʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ."
+  reward-claimed: "&a✔ &7ʏᴏᴜ ʜᴀᴠᴇ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄʟᴀɪᴍᴇᴅ &e%reward%&7!"
+  reward-locked: "&c✕ &7ʀᴇǫᴜɪʀᴇᴅ ᴘʟᴀʏᴛɪᴍᴇ: &e%required% &8| &7ʏᴏᴜʀꜱ: &c%current%"
+  already-claimed: "&c✕ &7ʏᴏᴜ ʜᴀᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴄʟᴀɪᴍᴇᴅ ᴛʜɪꜱ ʀᴇᴡᴀʀᴅ!"
+  config-reloaded: "&a✔ &7ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ ʜᴀꜱ ʙᴇᴇɴ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ʀᴇʟᴏᴀᴅᴇᴅ."

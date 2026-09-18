@@ -1,0 +1,15 @@
+name: RZ-PlaytimeRewards
+version: '${version}'
+main: me.reldiz.rZPlaytimeRewards.RZPlaytimeRewards
+api-version: '1.21'
+load: POSTWORLD
+authors: [ Rokas ]
+website: reldiz.lt
+description: RZ-PlaytimeRewards - thats plugin allow create playtime rewards.
+softdepend: [CMI, Essentials]
+
+commands:
+  playtime:
+    description: Open the playtime rewards menu or manage plugin.
+    aliases: [playtimerewards, rewards, ptr, pta, playtimeadmin]
+    permission: rzplaytimerewards.use
