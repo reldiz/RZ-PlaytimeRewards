@@ -5,7 +5,7 @@
 **A modern, lightweight, and fully customizable Minecraft playtime rewards plugin.**
 
 [![Version](https://img.shields.io/badge/version-1.21-brightgreen.svg)]()
-[![Author](https://img.shields.io/badge/author-Rokas-blue.svg)]()
+[![Author](https://img.shields.io/badge/author-Reldiz-blue.svg)]()
 [![Platform](https://img.shields.io/badge/platform-Spigot%20%2F%20Paper-orange.svg)]()
 
 </div>
